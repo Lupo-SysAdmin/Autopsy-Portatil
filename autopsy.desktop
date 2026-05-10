@@ -2,7 +2,7 @@
 Name=Autopsy Forensics
 Comment=Plataforma de Investigación Forense Digital
 Exec=bash -c 'cd ~/Autopsy-Portatil/src && ./bin/autopsy --jdkhome /usr/lib/jvm/jdk-21.0.11-oracle-x64'
-Icon=/home/kali/Autopsy-Portatil/src/platform/core/core.jar
+Icon=/home/USUARIO/Autopsy-Portatil/autopsy_icon.png
 Terminal=false
 Type=Application
 Categories=08-forensics;11-report-generation;

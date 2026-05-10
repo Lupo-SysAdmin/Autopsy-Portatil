@@ -1,24 +1,34 @@
 #!/bin/bash
 
-# Script de integración nativa para Autopsy Portátil
+# Script de integración nativa para Autopsy Portátil (Versión Pro)
 echo "-------------------------------------------------------"
 echo "🛠️  Instalando Autopsy en el menú de aplicaciones..."
 echo "-------------------------------------------------------"
 
-# Definir el nombre del archivo
+# Definir el nombre del archivo original
 FILE="autopsy.desktop"
+TEMP_FILE="autopsy_temp.desktop"
 
-# Comprobar si el archivo .desktop existe en la carpeta actual
+# 1. Comprobar si el archivo .desktop existe
 if [ ! -f "$FILE" ]; then
-    echo "❌ Error: No se encuentra el archivo autopsy.desktop en esta carpeta."
+    echo "❌ Error: No se encuentra el archivo $FILE en esta carpeta."
     exit 1
 fi
 
-# Copiar el archivo a la ruta global de aplicaciones de Linux
-sudo cp "$FILE" /usr/share/applications/autopsy.desktop
+# 2. Ajustar la ruta del icono dinámicamente
+# Reemplaza 'USUARIO' por el nombre del usuario actual (ej. kali)
+echo "🔧 Ajustando rutas para el usuario: $USER..."
+sed "s/USUARIO/$USER/g" "$FILE" > "$TEMP_FILE"
 
-# Dar permisos de lectura para que el sistema lo reconozca
+# 3. Copiar el archivo procesado a la ruta de aplicaciones de Linux
+# Usamos el archivo temporal que ya tiene la ruta corregida
+sudo cp "$TEMP_FILE" /usr/share/applications/autopsy.desktop
+
+# 4. Dar permisos de lectura para que el sistema lo reconozca
 sudo chmod 644 /usr/share/applications/autopsy.desktop
+
+# 5. Limpiar el archivo temporal
+rm "$TEMP_FILE"
 
 echo "-------------------------------------------------------"
 echo "✅ ¡Instalación completada con éxito!"
