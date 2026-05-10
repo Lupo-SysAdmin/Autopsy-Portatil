@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.sleuthkit.autopsy.thunderbirdparser/4">
+    <module_version install_time="1744664344683" last="true" origin="installer" specification_version="4.0.16">
+        <file crc="3112054913" name="config/Modules/org-sleuthkit-autopsy-thunderbirdparser.xml"/>
+        <file crc="376740654" name="modules/ext/apache-mime4j-mbox-iterator-0.8.11.jar"/>
+        <file crc="3815854041" name="modules/ext/ez-vcard-0.12.1.jar"/>
+        <file crc="2169148972" name="modules/ext/freemarker-2.3.32.jar"/>
+        <file crc="2399616183" name="modules/ext/jackson-core-2.15.2.jar"/>
+        <file crc="4157285327" name="modules/ext/java-libpst-0.9.5-SNAPSHOT.jar"/>
+        <file crc="293738087" name="modules/ext/jsoup-1.16.1.jar"/>
+        <file crc="4209348576" name="modules/ext/vinnie-2.0.2.jar"/>
+        <file crc="942953866" name="modules/org-sleuthkit-autopsy-thunderbirdparser.jar"/>
+    </module_version>
+</module>

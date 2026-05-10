@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Autopsy Forensic
+Comment=Digital Forensics Platform
+Exec=/opt/autopsy/bin/autopsy
+Icon=/opt/autopsy/icon.ico
+Terminal=false
+Type=Application
+Categories=Forensics;System;Security;
+Keywords=forensic;sleuthkit;autopsy;

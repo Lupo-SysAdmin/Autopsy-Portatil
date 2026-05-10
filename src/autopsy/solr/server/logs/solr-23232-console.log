@@ -1,0 +1,13 @@
+[0.002s][warning][pagesize] UseLargePages disabled, no large pages configured and available on the system.
+2026-05-10 20:02:48.404 INFO  (main) [   ] o.e.j.u.log Logging initialized @938ms to org.eclipse.jetty.util.log.Slf4jLog
+2026-05-10 20:02:48.629 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 21.0.11-ea+9-Debian-1
+2026-05-10 20:02:48.676 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///opt/autopsy/autopsy/solr/server/contexts/] at interval 0
+2026-05-10 20:02:48.914 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2026-05-10 20:02:48.923 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2026-05-10 20:02:48.923 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2026-05-10 20:02:48.924 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2026-05-10 20:02:48.955 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2026-05-10 20:02:48.957 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.1
+2026-05-10 20:02:48.958 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 23232
+2026-05-10 20:02:48.958 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /opt/autopsy/autopsy/solr
+2026-05-10 20:02:48.958 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2026-05-10T20:02:48.958363347Z
