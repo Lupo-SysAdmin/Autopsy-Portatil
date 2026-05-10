@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=Autopsy Forensic
-Comment=Digital Forensics Platform
-Exec=/opt/autopsy/bin/autopsy
-Icon=/opt/autopsy/icon.ico
+Name=Autopsy Forensics
+Comment=Plataforma de Investigación Forense Digital
+Exec=bash -c 'cd ~/Autopsy-Portatil/src && ./bin/autopsy --jdkhome /usr/lib/jvm/jdk-21.0.11-oracle-x64'
+Icon=/home/kali/Autopsy-Portatil/src/platform/core/core.jar
 Terminal=false
 Type=Application
-Categories=Forensics;System;Security;
-Keywords=forensic;sleuthkit;autopsy;
+Categories=08-forensics;11-report-generation;
+StartupNotify=true
