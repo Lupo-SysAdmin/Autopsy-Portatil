@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# -----------------------------------------------------------------------
+# LEGAL DISCLAIMER:
+# This project is an unofficial portable distribution. 
+# Autopsy® and The Sleuth Kit® are registered trademarks of their 
+# respective owners. This installer is provided under the Apache 2.0 License.
+# -----------------------------------------------------------------------
+
 # Script de integración nativa para Autopsy Portátil (Versión Pro)
 echo "-------------------------------------------------------"
 echo "🛠️  Instalando Autopsy en el menú de aplicaciones..."

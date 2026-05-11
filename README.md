@@ -39,3 +39,7 @@ cd Autopsy-Portatil
 # 3. Ejecutar la herramienta / Run the tool
 chmod +x run.sh
 ./run.sh
+```
+
+### ⚖️ Legal Disclaimer
+This project is an unofficial portable distribution. **Autopsy®** and **The Sleuth Kit®** are registered trademarks of their respective owners. This installer and its modifications are provided under the **Apache License 2.0**.
